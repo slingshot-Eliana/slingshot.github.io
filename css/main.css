@@ -1,0 +1,63 @@
+body
+{
+	background-color: #D4C094;
+	margin: 0px;
+}
+
+#container
+{
+	position: relative;
+	cursor: pointer;
+	text-align: left;
+	padding: 2px;
+	border-style: solid;
+	border-width: 8px;
+	border-color: #000000;
+	background-color: #ffffff;
+	width: 720px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#next-btn
+{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	color: white;
+	border: solid 2px white;
+	font-size: 14px;
+	background-color: black;
+	width: 40px;
+	font-family: unmaskedBB;
+	text-align: center;
+}
+img.message
+{
+	position: absolute;
+	/* Originally (360px, 85px) with center positioning */
+	/* Computed by new_x = old_x - (width/2) and new_y = old_y - (height/2) */
+	top: 27.5px;
+	left: 99px;
+	width: 522px;
+	height: 115px;
+}
+img.loading
+{
+	position: absolute;
+	/* Originally (360px, 300px) with center positioning */
+	/* Computed by new_x = old_x - (width/2) and new_y = old_y - (height/2) */
+	top: 160.5px;
+	left: 210px;
+	width: 279px;
+	height: 300px;
+}
+#game { display: none; } /* On load show loading and practice message, not the game message */
+
+@font-face
+{
+	font-family: unmaskedBB;
+	src: url(../fonts/unmasked-bb.regular.ttf);
+}
